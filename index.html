@@ -1,0 +1,977 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio — Moïse GOLO</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <script>
+  function setVH() {
+    document.documentElement.style.setProperty("--vh", window.innerHeight + "px");
+  }
+  setVH();
+  window.addEventListener("resize", setVH);
+</script>
+
+
+  <body>
+    <!-- NAV FIXE -->
+    <header class="topbar">
+      <div class="topbar__inner">
+        <a class="logo" href="#s1" aria-label="Accueil">
+          <span class="logo__mark">⚡</span>
+          <span class="logo__text">Moïse</span>
+        </a>
+
+        <nav class="nav">
+          <a href="#s1">Présentation</a>
+          <a href="#s2">À propos</a>
+          <a href="#s3">Formation</a>
+          <a href="#s4">Compétences</a>
+          <a href="#s8">Expériences</a>
+          <a href="#s13">Projets</a>
+          <a href="#contact">Contact</a>
+
+          <!-- ✅ LinkedIn -->
+          
+        
+        </nav>
+
+        <a class="cta" href="#contact">Me contacter</a>
+      </div>
+    </header>
+
+    <main class="slides">
+      <!-- DIAPO 1 : PRÉSENTATION -->
+      <section id="s1" class="slide hero">
+        <div class="container hero__grid">
+          <div class="hero__left">
+            
+
+            <h1 class="headline">
+              Salut, je suis <span class="name">Moïse</span>.<br />
+              <span class="headline__line2">Chargé d’étude électrotechnique</span>
+            </h1>
+
+            <p class="sub">
+              Étudiant en BUT Génie Électrique et Informatique Industrielle et chargé d’étude
+              électrotechnique chez EMC (Groupe EMITECH), je conçois et développe des solutions
+              électrotechniques fiables, conformes aux normes, destinées à des environnements
+              industriels exigeants.
+            </p>
+
+            <div class="skill-row">
+              <span class="pill">🧪 Bancs d’essai</span>
+              <span class="pill">📐 Schémas & dimensionnement</span>
+              <span class="pill">⚙️ Programmation API</span>
+              <span class="pill">🖥️ IHM / supervision</span>
+              <span class="pill">📄 Documentation</span>
+            </div>
+
+            <div class="buttons">
+              <a class="btn btn--primary" href="#s8">Voir mes expériences</a>
+              <a class="btn btn--ghost" href="#s13">Voir mes projets</a>
+              <a class="btn btn--ghost" href="#s2">À propos</a>
+            </div>
+
+            <div class="meta">
+              <span>📍 Louvres (95380), France</span>
+              <span>🚗 Permis B</span>
+              <span>⚡ H0 • B1/B1V • B2/B2V • BC</span>
+            </div>
+          </div>
+
+          <!-- ✅ Photo + mini-cards remises -->
+          <div class="hero__right">
+            <div class="portrait">
+              <img src="assets/moise.png" alt="Photo de Moïse GOLO" />
+              <div class="spark spark--1" aria-hidden="true"></div>
+              <div class="spark spark--2" aria-hidden="true"></div>
+              <div class="spark spark--3" aria-hidden="true"></div>
+            </div>
+
+            <div class="mini-cards">
+              <div class="mini">
+                <div class="mini__top">POSTE</div>
+                <div class="mini__big">Chargé d’étude</div>
+                <div class="mini__sub">EMC (Groupe EMITECH)</div>
+              </div>
+
+              <div class="mini">
+                <div class="mini__big">Étudiant</div>
+                <div class="mini__sub">BUT GEII</div>
+                <div class="mini__sub">UPEC</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ✅ Bande noire -->
+        <div class="ribbon">
+          <div class="ribbon__inner">
+            <span>⚡ ÉLECTROTECHNIQUE</span><span>•</span>
+            <span>🤖 AUTOMATISME</span><span>•</span>
+            <span>🖥️ IHM</span><span>•</span>
+            <span>📐 DIMENSIONNEMENT</span><span>•</span>
+            <span>📄 DOCUMENTATION</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- DIAPO 2 : À PROPOS + CV -->
+      <section id="s2" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <h2>À propos de moi</h2>
+            <p>
+              Passionné par l’électrotechnique et les systèmes industriels, je travaille sur la
+              conception de bancs d’essai, la réalisation de schémas électriques, le dimensionnement
+              d’installations et la rédaction de documentations techniques. J’interviens de l’étude
+              jusqu’au support de test, en lien direct avec les équipes, les fournisseurs et les
+              clients.
+            </p>
+          </div>
+
+          <div class="cards-2">
+            <article class="card">
+              <h3>Profil</h3>
+              <ul>
+                <li><strong>Nom :</strong> Moïse GOLO OBAMBI</li>
+                <li>
+                  <strong>Email :</strong>
+                  <a href="/moiseobambi7@gmail.com">moiseobambi7@gmail.com</a>
+                </li>
+                <li><strong>Téléphone :</strong> <a href="tel:+33753763663">07 53 76 36 63</a></li>
+                <li><strong>Ville :</strong> Louvres (95380), France</li>
+                <li><strong>Permis :</strong> B</li>
+                <li>
+                  <strong>LinkedIn :</strong>
+                  <a
+                    href="https://www.linkedin.com/in/mo%C3%AFse-obambi-74605220b/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Moïse OBAMBI</a
+                  >
+                </li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Points clés</h3>
+              <div class="tags">
+                <span>Schémas électriques</span>
+                <span>Dimensionnement</span>
+                <span>Programmation API</span>
+                <span>IHM</span>
+                <span>Bancs d’essai</span>
+                <span>Documentation</span>
+              </div>
+
+              <h3 class="mt">Normes & habilitations</h3>
+              <div class="tags">
+                <span>NFC 15-100</span>
+                <span>IEC</span>
+                <span>H0</span>
+                <span>B1/B1V</span>
+                <span>B2/B2V</span>
+                <span>BC</span>
+              </div>
+            </article>
+          </div>
+
+          <!-- ✅ Mets ton PDF ici -->
+          <a class="corner" href="assets/CV_Moise.pdf" download>⬇ Télécharger mon CV</a>
+        </div>
+      </section>
+
+      <!-- DIAPO 3 : FORMATION -->
+      <section id="s3" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <h2>Formation</h2>
+            <p>Parcours académique</p>
+          </div>
+
+          <div class="school-list">
+            <a class="school" href="https://www.u-pec.fr/" target="_blank" rel="noreferrer">
+              <div class="school__left">
+                <div class="school__title">Université Paris-Est Créteil (UPEC)</div>
+                <div class="school__meta">BUT GEII (Génie Électrique et Informatique Industrielle) — depuis 2025</div>
+              </div>
+              <span class="chip2">Lien</span>
+            </a>
+
+            <a class="school" href="https://www.lpo-julesverne.fr/" target="_blank" rel="noreferrer">
+              <div class="school__left">
+                <div class="school__title">Lycée Jules Verne — Château-Thierry</div>
+                <div class="school__meta">BTS Électrotechnique — 2021–2024</div>
+              </div>
+              <span class="chip2">Lien</span>
+            </a>
+
+            <a class="school" href="https://lyc-rolland-goussainville.ac-versailles.fr/" target="_blank" rel="noreferrer">
+              <div class="school__left">
+                <div class="school__title">Lycée Romain Rolland — Goussainville</div>
+                <div class="school__meta">BAC PRO MELEC — 2021 </div>
+              </div>
+              <span class="chip2">Lien</span>
+            </a>
+
+<a class="school" href="https://lyc-rolland-goussainville.ac-versailles.fr/" target="_blank" rel="noreferrer">
+              <div class="school__left">
+                <div class="school__title">Lycée Romain Rolland — Goussainville</div>
+                <div class="school__meta">BEP MELEC — 2020</div>
+              </div>
+              <span class="chip2">Lien</span>
+            </a>
+
+            <a class="school" href="https://lyceejeanmace-vitry.fr/" target="_blank" rel="noreferrer">
+              <div class="school__left">
+                <div class="school__title">Lycée Jean Macé — Vitry-sur-Seine</div>
+                <div class="school__meta">Formation HTA (2020)</div>
+              </div>
+              <span class="chip2">Lien</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- DIAPO 4 : MENU COMPÉTENCES -->
+      <section id="s4" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <h2>Compétences</h2>
+            <p>Choisis une catégorie</p>
+          </div>
+
+          <div class="menu3">
+            <a class="menu-card" href="#s5">
+              <div class="menu-icon">🛠️</div>
+              <div>
+                <div class="menu-title">Compétences techniques</div>
+                <div class="menu-sub">Outils & maîtrise</div>
+              </div>
+            </a>
+
+            <a class="menu-card" href="#s6">
+              <div class="menu-icon">🧠</div>
+              <div>
+                <div class="menu-title">Compétences transversales</div>
+                <div class="menu-sub">Soft skills & méthodes</div>
+              </div>
+            </a>
+
+            <a class="menu-card" href="#s7">
+              <div class="menu-icon">🧩</div>
+              <div>
+                <div class="menu-title">Alignées BUT GEII</div>
+                <div class="menu-sub">Compétences cœur métier</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- DIAPO 5 -->
+      <section id="s5" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <h2>🛠️ Compétences techniques & outils maîtrisés</h2>
+            <p>Expertises, logiciels, normes</p>
+          </div>
+
+          <div class="cards-2">
+            <article class="card">
+              <h3>Techniques</h3>
+              <ul>
+                <li>Conception de schémas et dimensionnement</li>
+                <li>Programmation API & IHM</li>
+                <li>Câblage et implantation d’armoires électriques</li>
+                <li>Création de bancs de test</li>
+                <li>Documentation technique</li>
+                <li>Suivi de projet</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Logiciels</h3>
+              <div class="tags">
+                <span>SEE Electrical</span>
+                <span>EcoStruxure Machine Expert</span>
+                <span>Vijeo Designer</span>
+                <span>EcoStruxure Power Design (Ecodial)</span>
+                <span>MindView</span>
+                <span>Pack Office</span>
+              </div>
+
+              <h3 class="mt">Normes</h3>
+              <div class="tags">
+                <span>NFC 15-100</span>
+                <span>IEC</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- DIAPO 6 -->
+      <section id="s6" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <h2>🧠 Compétences transversales</h2>
+            <p>Ma façon de travailler</p>
+          </div>
+
+          <article class="card">
+            <ul>
+              <li>Autonomie, rigueur, sens du détail</li>
+              <li>Communication claire (BE / atelier / fournisseurs)</li>
+              <li>Analyse et résolution de problèmes</li>
+              <li>Organisation et respect des délais</li>
+              <li>Adaptabilité en environnement industriel</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- DIAPO 7 -->
+      <section id="s7" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <h2>🧩 Compétences alignées avec le BUT GEII</h2>
+            <p>Compétences clés</p>
+          </div>
+
+          <div class="tags tags--big">
+            <span>Électrotechnique industrielle</span>
+            <span>Automatisme</span>
+            <span>Analyse fonctionnelle</span>
+            <span>Programmation API</span>
+            <span>IHM / supervision</span>
+            <span>Suivi & documentation projet</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- DIAPO 8 : EXPERIENCES -->
+      <section id="s8" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <h2>Expériences professionnelles</h2>
+            <p>Clique sur une expérience pour voir le détail</p>
+          </div>
+
+          <div class="exp-grid">
+            <a class="exp exp--haslogo" href="#s9">
+              <div class="exp__row">
+                <img class="exp__logo" src="assets/logoemc.png" alt="EMC" />
+                <div>
+                  <h3>EMC (Groupe EMITECH) — Achères</h3>
+                  <p>Chargé d’étude électrotechnique (CDI)</p>
+                </div>
+              </div>
+              <div class="exp__actions">
+                <span class="exp__link">Voir détails →</span>
+                <a class="smallbtn" href="https://www.emitech.fr/fr" target="_blank" rel="noreferrer">Site</a>
+              </div>
+            </a>
+
+            <a class="exp exp--haslogo" href="#s10">
+              <div class="exp__row">
+                <img class="exp__logo" src="assets/logosodexo.png" alt="Sodexo" />
+                <div>
+                  <h3>Sodexo Énergie et Systèmes — Paris</h3>
+                  <p>Technicien multitechnique (2024)</p>
+                </div>
+              </div>
+              <div class="exp__actions">
+                <span class="exp__link">Voir détails →</span>
+                <a class="smallbtn" href="https://www.sodexo.fr/marques-services/energy-management" target="_blank" rel="noreferrer">Site</a>
+              </div>
+            </a>
+
+            <a class="exp exp--haslogo" href="#s11">
+              <div class="exp__row">
+                <img class="exp__logo" src="assets/logoe3geni.png" alt="E3 Génie" />
+                <div>
+                  <h3>E3 Génie Climatique — Paris</h3>
+                  <p>Technicien CVC (2023)</p>
+                </div>
+              </div>
+              <div class="exp__actions">
+                <span class="exp__link">Voir détails →</span>
+                <a class="smallbtn" href="https://www.e3clim.com/" target="_blank" rel="noreferrer">Site</a>
+              </div>
+            </a>
+
+            <a class="exp exp--haslogo" href="#s12">
+              <div class="exp__row">
+                <img class="exp__logo" src="assets/logoibis.png" alt="IBIS Styles" />
+                <div>
+                  <h3>IBIS Styles — Paris</h3>
+                  <p>Technicien maintenance (2022)</p>
+                </div>
+              </div>
+              <div class="exp__actions">
+                <span class="exp__link">Voir détails →</span>
+                <a class="smallbtn" href="https://ibis.accor.com/fr/ibis-styles.html" target="_blank" rel="noreferrer">Site</a>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- DIAPO 9 -->
+      <section id="s9" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <div class="titleline">
+              <h2>EMC — Chargé d’étude électrotechnique</h2>
+              <img class="titlelogo" src="assets/logoemc.png" alt="EMC" />
+            </div>
+            <p>Depuis janvier 2025</p>
+          </div>
+
+          <article class="card">
+            <ul>
+              <li>Conception de bancs de test</li>
+              <li>Études électrotechniques : schémas, dimensionnement, notes de calcul</li>
+              <li>Programmation API & IHM</li>
+              <li>Consultations et échanges fournisseurs</li>
+              <li>Montage / support de test</li>
+              <li>Production et archivage de la documentation technique</li>
+            </ul>
+
+            <div class="backrow">
+              <a class="btn btn--ghost" href="#s8">← Retour</a>
+              <a class="btn btn--primary" href="#s13">Aller aux projets →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- DIAPO 10 -->
+      <section id="s10" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <div class="titleline">
+              <h2>Sodexo — Technicien multitechnique</h2>
+              <img class="titlelogo" src="assets/logosodexo.png" alt="Sodexo" />
+            </div>
+            <p>2024</p>
+          </div>
+
+          <article class="card">
+            <ul>
+              <li>Maintenance préventive et corrective</li>
+              <li>Rondes techniques</li>
+              <li>GMAO</li>
+            </ul>
+
+            <div class="backrow">
+              <a class="btn btn--ghost" href="#s8">← Retour</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- DIAPO 11 -->
+      <section id="s11" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <div class="titleline">
+              <h2>E3 Génie Climatique — Technicien CVC</h2>
+              <img class="titlelogo" src="assets/logoe3geni.png" alt="E3 Génie" />
+            </div>
+            <p>2023</p>
+          </div>
+
+          <article class="card">
+            <ul>
+              <li>Maintenance : CTA, climatisation, groupe froid</li>
+              <li>Chaufferie</li>
+              <li>Préventif / correctif</li>
+            </ul>
+
+            <div class="backrow">
+              <a class="btn btn--ghost" href="#s8">← Retour</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- DIAPO 12 -->
+      <section id="s12" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <div class="titleline">
+              <h2>IBIS Styles — Technicien maintenance</h2>
+              <img class="titlelogo" src="assets/logoibis.png" alt="IBIS Styles" />
+            </div>
+            <p>2022</p>
+          </div>
+
+          <article class="card">
+            <ul>
+              <li>Électricité, plomberie, mobilier</li>
+              <li>Maintenance préventive et corrective</li>
+              <li>Gestion du contrôle d’accès</li>
+            </ul>
+
+            <div class="backrow">
+              <a class="btn btn--ghost" href="#s8">← Retour</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- DIAPO 13 : MENU PROJETS -->
+      <section id="s13" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <h2>Projets</h2>
+            <p>Choisis une catégorie</p>
+          </div>
+
+          <div class="menu2">
+            <a class="menu-card big" href="#s14">
+              <div class="menu-icon">🏭</div>
+              <div>
+                <div class="menu-title">Projets professionnels</div>
+                <div class="menu-sub">Réalisés en entreprise</div>
+              </div>
+            </a>
+
+            <a class="menu-card big" href="#s15">
+              <div class="menu-icon">🎓</div>
+              <div>
+                <div class="menu-title">Projets académiques</div>
+                <div class="menu-sub">Réalisés en formation</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- DIAPO 14 -->
+      <section id="s14" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <h2>Projets professionnels</h2>
+            <p>Choisis un projet</p>
+          </div>
+
+          <div class="proj-list">
+            <a class="proj" href="#s16">
+              <strong>Banc d'essai de réception de vérins de portes avion</strong>
+              <span class="muted" style="font-size:13px;font-weight:700;">Collins Aerospace  </span>
+              <span class="proj__link">Ouvrir →</span>
+            </a>
+
+            <a class="proj" href="#s17">
+              <strong>Banc d’essai de différentiel automobile</strong>
+              <span class="muted" style="font-size:13px;font-weight:700;">SADEV Racing Transmission </span>
+              <span class="proj__link">Ouvrir →</span>
+            </a>
+
+            <a class="proj" href="#s20">
+              <strong>Banc d’essai de sécurité batterie par immersion</strong>
+              <span class="muted" style="font-size:13px;font-weight:700;">TotalEnergies</span>
+              <span class="proj__link">Ouvrir →</span>
+            </a>
+
+            <a class="proj" href="#s21">
+              <strong>SEQUOIA V2 — Banc d’essais rotatif haute vitesse</strong>
+              <span class="muted" style="font-size:13px;font-weight:700;">Safran Aircraft Engines</span>
+              <span class="proj__link">Ouvrir →</span>
+            </a>
+
+            <a class="proj" href="#s22">
+              <strong>Agitateurs d’ondes EM pour chambre d’essai CEM</strong>
+              <span class="muted" style="font-size:13px;font-weight:700;">EMITECH Groupe </span>
+              <span class="proj__link">Ouvrir →</span>
+            </a>
+          </div>
+
+          <div class="backrow">
+            <a class="btn btn--ghost" href="#s13">← Retour menu projets</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- DIAPO 15 -->
+      <section id="s15" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <h2>Projets académiques</h2>
+            <p>Choisis un projet</p>
+          </div>
+
+          <div class="proj-list">
+            <a class="proj" href="#s18">
+              <strong>Bras manipulateur pneumatique</strong>
+              <span class="proj__link">Ouvrir →</span>
+            </a>
+
+            <a class="proj" href="#s19">
+              <strong>Ligne de vernissage — verres à lunettes</strong>
+              <span class="proj__link">Ouvrir →</span>
+            </a>
+          </div>
+
+          <div class="backrow">
+            <a class="btn btn--ghost" href="#s13">← Retour menu projets</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- DIAPO 16 -->
+      <section id="s16" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <div class="titleline">
+              <h2>Banc d'éssai de réception de vérins de portes avion</h2>
+              <img class="titlelogo" src="assets/logocollins.png" alt="Collins Aerospace" />
+            </div>
+            <p>Projet professionnel — Collins Aerospace / Ratier-Figeac — 2025</p>
+          </div>
+
+          <article class="card">
+            <h3>🛫 Contexte</h3>
+            <p class="muted">Conception des schémas électriques, spécifications et notes de calcul d'un banc d'essai industriel. Le banc ME001 teste les vérins hydrauliques des portes passagers (Airbus, Embraer, Bombardier, Comac) : simulation d'effort, mesure de course, contrôle d'amortissement, percussion des vérins.</p>
+
+            <h3 class="mt">Réalisations</h3>
+            <ul>
+              <li><strong><u>Conception et intégration :</u></strong> J’ai réalisé l’implantation complète des armoires, le câblage, les pupitres ainsi que toute la documentation technique associée. Distribution triphasée IT/TN-C, variateur + résistance de freinage, cartes EtherCAT / Safety / EnDat 2.2</li>
+              <li><u>Sécurité industrielle :</u>J’ai développé une chaîne de sécurité complète avec arrêts d’urgence redondants, interverrouillage temporisé, pédale de commande sécurisée et gestion des seuils critiques.</li>
+              <li><u>Mesures et acquisition :</u>J’ai mis en place un système d’acquisition performant permettant de collecter et traiter en temps réel les données d’effort, de position et de pression. </li>
+              <li><u>Gestion hydraulique :</u>J’ai automatisé le pilotage de plusieurs électrovannes pour contrôler précisément les cycles pneumatiques et la pression d’azote.</li>
+              <li><u>Notes de calcul :</u>J’ai dimensionné l’installation électrique (protections, câbles, sélectivité) afin de garantir sécurité, performance et conformité aux normes.</li>
+              <li><u>Implantation :</u> Coffret électrique, plans pupitres zone pilotage & zone montage.</li>
+            </ul>
+
+            <h3 class="mt">Compétences mobilisées</h3>
+            <div class="tags">
+              <span>SEE Electrical (71 folios)</span>
+              <span>Ecodial</span>
+              <span>Distribution IT & TN</span>
+              <span>Variateur M700</span>
+              <span>Servomoteur brushless</span>
+              <span>Sécurité machine Preventa</span>
+              <span>CompactRIO NI</span>
+              <span>Capteurs effort / pression</span>
+              <span>EtherCAT / ClipX</span>
+              <span>Électrovannes pneumatiques</span>
+            </div>
+
+            <div class="backrow">
+              <a class="btn btn--ghost" href="#s14">← Retour projets pro</a>
+              <a class="btn btn--primary" href="#contact">Me contacter →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- DIAPO 17 -->
+      <section id="s17" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <div class="titleline">
+              <h2>Banc d'essai de différentiel automobile</h2>
+              <img class="titlelogo" src="assets/logosadev.png" alt="SADEV" />
+            </div>
+            <p>Projet professionnel — SADEV Racing Transmission — 2025</p>
+          </div>
+
+          <article class="card">
+            <h3>🚗 Contexte</h3>
+            <p class="muted">Conception des schémas électriques, spécifications et documentation complète d'un banc d'essai industriel qui mesure le couple de friction et le taux de blocage des différentiels autobloquants SADEV pour la compétition. Le banc entraîne le différentiel par deux moteur-réducteurs à arbres coaxiaux, mesure les couples via des couplemètres, contrôle la pression hydraulique de pilotage et gère la lubrification avec régulation thermique.Le tout est piloté par un CompactRIO NI et sécurisé par un contrôleur Preventa Schneider.</p>
+
+            <h3 class="mt">Réalisations</h3>
+            <ul>
+              <li><strong><u>Conception et intégration :</u></strong>  J’ai conçu l’architecture électrique, réalisé les schémas, le câblage et la documentation dans une logique industrielle fiable et maintenable, distribution TN-C, intégration des 3 variateurs KEB, bus DC inter-variateurs, communication CANopen </li>
+              <li><u>Distribution électrique :</u> Distribution puissance et de commande </li> 
+              <li><u>Sécurité industrielle :</u> Sécurité industrielle : J’ai intégré des dispositifs de sécurité avancés (arrêts d’urgence, verrouillage de carter, surveillance) garantissant un arrêt immédiat en cas de danger, gérer par un relais de sécurité.</li>
+              <li><u>Mesures et acquisition :</u> J’ai déployé un système de capteurs permettant de mesurer en temps réel le couple, la pression, la température et le débit pour analyser les performances.</li>
+            <li><u>Notes de calcul :</u> J’ai dimensionné l’installation électrique (protections, câbles, sélectivité) afin de garantir sécurité, performance et conformité aux normes.</li>
+              <li><u>Gestion hydraulique :</u> J’ai conçu un circuit hydraulique automatisé permettant de contrôler la pression, la lubrification et les flux pour reproduire des conditions réelles. Pilotage électrovannes hydrauliques, gestion circuit lubrification.</li>
+              <li><u>Implantation :</u> Coffret électrique, plans pupitres zone pilotage & zone montage.</li>—
+            </ul>
+
+            <h3 class="mt">Compétences mobilisées</h3>
+            <div class="tags">
+              <span>SEE Electrical (64 folios)</span>
+              <span>Variateurs KEB F6 & S6</span>
+              <span>Communication CANopen / Bus DC</span>
+              <span>Sécurité Preventa</span>
+              <span>Verrou électromagnétique</span>
+              <span>CompactRIO NI</span>
+              <span>Couplemètres & capteurs</span>
+              <span>Thermocouples type K</span>
+              <span>Alimentation 24V segmentée</span>
+              <span>Synoptique & plans pupitres</span>
+            </div>
+
+            <div class="backrow">
+              <a class="btn btn--ghost" href="#s14">← Retour projets pro</a>
+              <a class="btn btn--primary" href="#contact">Me contacter →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+<!-- DIAPO 18 -->
+      <section id="s18" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <div class="titleline">
+              <h2>SEQUOIA V2 — Banc d'essais rotatif haute vitesse</h2>
+              <img class="titlelogo" src="assets/Logosafran.png" alt="Safran Aircraft Engines" />
+            </div>
+            <p>Projet R&D Aéronautique — Safran Aircraft Engines</p>
+          </div>
+
+          <article class="card">
+            <h3>✈️ Contexte</h3>
+            <p class="muted">Dans un moteur d'avion, des arbres tournent à des milliers de tours par minute. À certaines vitesses, ces arbres peuvent entrer en vibration — un phénomène dangereux appelé « instabilité ». Pour prédire et éviter ces vibrations avant qu'elles ne surviennent en vol, Safran a conçu un banc d'essais de laboratoire. Le banc utilise deux moteurs tournant à des vitesses différentes pour reproduire et analyser des phénomènes vibratoires critiques pour la sécurité aéronautique.<br> Mon rôle : concevoir toute l'installation électrique qui permet de piloter ce second moteur — l'armoire variateur, les protections, la chaîne de sécurité, et les interfaces avec le système de commande existant.</p>
+
+            <h3 class="mt">Réalisations</h3>
+            <ul>
+              <li><u>Conception de l'armoire variateur :</u> Dimensionnement et implantation d'une armoire électrique compacte intégrant un variateur de vitesse pour piloter un moteur. Le variateur est commandé en Modbus TCP par le système de supervision Pulsar, ce qui permet de régler précisément la vitesse de rotation.</li>
+              <li><u>Alimentation et protections :</u> Départ depuis le TGBT du bâtiment, sectionneur en tête d'armoire, voyant de présence tension triphasée. Dimensionnement des protections en tenant compte du courant nominal moteur, du courant max variateur et du courant de court-circuit présumé.<p style="font-size: 12px;"><i>Notes de calcul réalisées sur EcoStruxure Power Design (Ecodial) : coordination des protections, vérification des sections de câbles, bilan thermique de l'armoire avec ventilation forcée.</i> </li>
+              <li><u>Sécurité machine :</u> Le variateur intègre des fonctions de sécurité normalisées : STO (coupure sûre du couple) et SS1 (arrêt sûr). Ces fonctions sont câblées à la chaîne d'arrêt d'urgence du banc existant (SEQUOIA V1). Un capteur de vitesse dédié surveille en permanence le régime et déclenche un arrêt automatique si le moteur dépasse la limite autorisée. <p style="font-size: 12px;"><i>L'intégration sécuritaire a nécessité la modification des schémas électriques du banc existant pour raccorder les nouveaux signaux (validation STO, enable, reset défaut, chaîne AU).</i> </li>
+              <li><u>Interfaces commande et mesure :</u> Liaison Modbus TCP (RJ45) entre le variateur et le système d'acquisition/commande Pulsar pour le pilotage en vitesse, la lecture de paramètres (courant, vitesse réelle, défauts) et le retour d'état. </li>
+              <li><u>Intégration dans la céllule d'essai :</u> Étude du cheminement cheminement câbles puissance mezzanine → moteur (goulottes métalliques, câble volant zones contraintes)</li>
+              <li><u>Schémas électriques et documentation :</u> Réalisation du dossier complet sous SEE Electrical : schéma de puissance (alimentation, variateur, moteur), schéma de commande (interfaces Modbus et TOR), synoptique général, implantation armoire, borniers, nomenclature matériel. Modification des schémas du banc SEQUOIA V1 pour intégrer les nouvelles interfaces sécuritaires et de mesure.</li>
+            </ul>
+
+            <h3 class="mt">Compétences mobilisées</h3>
+            <div class="tags">
+              <span>SEE Electrical</span>
+              <span>Ecodial / EcoStruxure</span>
+              <span>Variateur haute vitesse</span>
+              <span>Sécurité STO / SS1</span>
+              <span>Protection survitesse</span>
+              <span>Modbus TCP</span>
+              <span>Modification installation existante</span>
+              <span>Cheminement câbles</span>
+            </div>
+
+            <div class="backrow">
+              <a class="btn btn--ghost" href="#s14">← Retour projets pro</a>
+              <a class="btn btn--primary" href="#contact">Me contacter →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+<!-- DIAPO 19 -->
+      <section id="s19" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <div class="titleline">
+              <h2>Banc d'essai — Sécurité batterie par immersion</h2>
+              <img class="titlelogo" src="assets/logototal.png" alt="TotalEnergies" />
+            </div>
+            <p>Projet R&D — TotalEnergies</p>
+          </div>
+
+          <article class="card">
+            <h3>🔋 Contexte</h3>
+            <p class="muted">Quand une cellule de batterie lithium surchauffe brutalement, elle peut enflammer ses voisines comme des dominos. TotalEnergies teste une solution : immerger les cellules dans un liquide isolant qui absorbe la chaleur. Un clou perce volontairement une cellule, et on mesure si le liquide protège les 15 autres. Mon travail : concevoir toute l'électricité du banc d'essai.</p>
+
+            <h3 class="mt">Réalisations</h3>
+            <ul>
+              <li><u>Synoptique de commande :</u> Schéma complet reliant coffret, pompe, électrovannes, capteurs de pression et réservoir en architecture 24 VDC.</li>
+              <li><u>Choix & dimensionnement composants :</u> Alimentation, disjoncteur, contacteurs, transmetteur de pression, ...</li>
+              <li><u>Sécurité :</u> Logique de sécurité positive, en cas d'arrêt d'urgencele système se met seul en position sûre.</li>
+              <li>Documentation technique complète</li>
+            </ul>
+
+            <h3 class="mt">Compétences mobilisées</h3>
+            <div class="tags">
+              <span>Schémas électriques 24 VDC</span>
+              <span>Dimensionnement BT</span>
+              <span>Sélection appareillage</span>
+              <span>Logique de sécurité AU/NF/NO</span>
+              <span>Commande pompes & vannes</span>
+              <span>Capteurs industriels P & T</span>
+              <span>Implantation coffret</span>
+              <span>Documentation technique</span>
+            </div>
+
+            <div class="backrow">
+              <a class="btn btn--ghost" href="#s14">← Retour projets pro</a>
+              <a class="btn btn--primary" href="#contact">Me contacter →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+     <!-- DIAPO 20 -->
+      <section id="s20" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <div class="titleline">
+              <h2>Agitateurs d'ondes EM — Chambre CEM</h2>
+              <img class="titlelogo" src="assets/logoemitech.png" alt="EMITECH Groupe" />
+            </div>
+            <p>Projet Innovation — EMITECH Groupe</p>
+          </div>
+
+          <article class="card">
+            <h3>📡 Contexte</h3>
+            <p class="muted">Plutôt que des brasseurs rotatifs classiques, des vérins motorisés agitent directement les parois métallisées flexibles d'une chambre réverbérante (VIRC). 8 servomoteurs linéaires LinMot font vibrer les toiles à amplitude et fréquence réglables pour créer un environnement EM uniforme. Deux armoires (Maître + Esclave) pilotées via EtherCAT par un contrôleur Trio Motion MC4N.</p>
+
+            <h3 class="mt">Réalisations</h3>
+            <ul>
+              <li><u>Conception et intégration :</u> Spécification technique complète des agitateurs.Le système est organisé en deux armoires électriques : une armoire principale (Maître) qui pilote l'ensemble et une armoire secondaire (Esclave) qui gère une partie des moteurs. Les deux communiquent via un câble multibrins dédié.</li>
+              <li><u>Armoire Maître :</u> Contient le cerveau du système : un contrôleur de mouvement Trio Motion qui orchestre tous les vérins via un bus de communication rapide (EtherCAT). Elle pilote directement les moteurs n°1 à 4, gère l'alimentation et intègre le bouton d'arrêt d'urgence principal.</li>
+              <li><u>Armoire Esclave :</u><strong></strong> Reçoit les ordres de l'armoire Maître et pilote les moteurs n°5 à 8. Elle embarque les mêmes composants de puissance (alimentations, servo-contrôleurs) et dispose de son propre système de ventilation et de surveillance de température.<p style="font-size: 12px;"><i> Un relais de sécurité dédié assure que l'arrêt d'urgence déclenché sur l'une des armoires coupe immédiatement les deux, garantissant la sécurité de l'ensemble.</i> </li>
+              <li><u>Sécurité :</u>Un relais de sécurité certifié (Schneider Electric XPSBAC14AP) surveille en permanence la chaîne d'arrêt d'urgence. En cas de déclenchement, tous les moteurs s'arrêtent immédiatement. Le redémarrage nécessite une action manuelle volontaire.<p style="font-size: 12px;"><i>Le câblage de sécurité relie les deux armoires pour garantir un arrêt simultané.</i></li>
+              
+            </ul>
+
+            <h3 class="mt">Compétences mobilisées</h3>
+            <div class="tags">
+              <span>SEE Electrical (47+ folios)</span>
+              <span>Moteurs linéaires LinMot</span>
+              <span>Servo-contrôle EtherCAT</span>
+              <span>Trio Motion MC4N</span>
+              <span>Distribution 72 V DC</span>
+              <span>Sécurité EN 62061</span>
+              <span>CEM / Chambre VIRC</span>
+              <span>Architecture Maître/Esclave</span>
+            </div>
+
+            <div class="backrow">
+              <a class="btn btn--ghost" href="#s14">← Retour projets pro</a>
+              <a class="btn btn--primary" href="#contact">Me contacter →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- DIAPO 21 -->
+      <section id="s18" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <h2>Bras manipulateur pneumatique</h2>
+            <p>Projet académique</p>
+          </div>
+
+          <article class="card">
+            <h3>🤖📌 Bras manipulateur pneumatique</h3>
+            <p class="muted"><strong>Contexte :</strong> Projet BTS</p>
+
+            <p><strong>Objectif :</strong> Rénover un système de manutention de pièces via un bras pneumatique.</p>
+
+            <h3 class="mt">Travaux réalisés</h3>
+            <ul>
+              <li>Création complète de l’armoire électrique (distribution, puissance, commande)</li>
+              <li>Réalisation des schémas électriques (distribution, puissance, commande)</li>
+              <li>Programmation des cycles IHM : pas-à-pas, par cycle, continu</li>
+              <li>Mise en conformité selon la norme NFC 15-100</li>
+              <li>Tests finaux et documentation sur SEE Electrical</li>
+            </ul>
+
+            <h3 class="mt">Compétences mobilisées</h3>
+            <div class="tags">
+              <span>SEE Electrical</span>
+              <span>API</span>
+              <span>IHM</span>
+              <span>Sécurité machine</span>
+              <span>Gestion de projet</span>
+            </div>
+
+            <div class="backrow">
+              <a class="btn btn--ghost" href="#s15">← Retour projets académiques</a>
+              <a class="btn btn--primary" href="#contact">Me contacter →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- DIAPO 22 -->
+      <section id="s19" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <h2>Ligne de vernissage — verres à lunettes</h2>
+            <p>Projet académique</p>
+          </div>
+
+          <article class="card">
+            <h3>👓📌 Ligne de vernissage de verres — Novacel</h3>
+            <p class="muted"><strong>Contexte :</strong> Projet en entreprise (BTS)</p>
+
+            <p><strong>Objectif :</strong> Moderniser la ligne industrielle de traitement des verres.</p>
+
+            <h3 class="mt">Travaux réalisés</h3>
+            <ul>
+              <li>Remplacement de l’API par un modèle Modicon</li>
+              <li>Ajout et configuration d’une IHM tactile</li>
+              <li>Réalisation complète des schémas électriques (distribution, puissance, commande)</li>
+              <li>Intégration des fonctions : nettoyage, rinçage, chauffage, ultrasons, séchage</li>
+            </ul>
+
+            <h3 class="mt">Conformité</h3>
+            <p>Respect des normes EN 954-1 — catégorie 2.</p>
+
+            <h3 class="mt">Compétences mobilisées</h3>
+            <div class="tags">
+              <span>Analyse fonctionnelle</span>
+              <span>Automatisme</span>
+              <span>Câblage</span>
+              <span>Documentation technique</span>
+            </div>
+
+            <div class="backrow">
+              <a class="btn btn--ghost" href="#s15">← Retour projets académiques</a>
+              <a class="btn btn--primary" href="#contact">Me contacter →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+
+
+      <!-- CONTACT -->
+      <section id="contact" class="slide">
+        <div class="container">
+          <div class="section-head">
+            <h2>Contact</h2>
+            <p>On échange quand tu veux</p>
+          </div>
+
+          <div class="cards-2">
+            <article class="card">
+              <h3>Coordonnées</h3>
+              <p>
+                Email :
+                <a href="moiseobambi7@gmail.com">moiseobambi7@gmail.com</a><br />
+                Téléphone : <a href="tel:+33753763663">07 53 76 36 63</a><br />
+                Ville : Louvres (95380), France<br />
+                LinkedIn :
+                <a
+                  href="https://www.linkedin.com/in/mo%C3%AFse-obambi-74605220b/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Profil LinkedIn</a
+                >
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Actions</h3>
+              <a class="btn btn--primary" href="moiseobambi7@gmail.com">Envoyer un email</a>
+              <a class="btn btn--ghost" href="assets/CV_Moise.pdf" targ
